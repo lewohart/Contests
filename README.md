@@ -1,0 +1,2 @@
+# Contests
+Code contests repository

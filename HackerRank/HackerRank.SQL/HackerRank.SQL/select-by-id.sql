@@ -1,0 +1,1 @@
+﻿-- https://www.hackerrank.com/challenges/select-by-id/submissions/database/13957724select * from city where id = 1661;

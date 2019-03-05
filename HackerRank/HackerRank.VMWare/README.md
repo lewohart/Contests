@@ -38,7 +38,7 @@ If P is zero, the rest of the entry is ignored and a NOT-PRESENT fault is delive
 
 No further entries are accessed by this translation.
 
-####### 4GiB and 4MiB pages
+###### 4GiB and 4MiB pages
 
 Each present PL3e/PL2e/PL1e contains a Leaf (L) indication at bit 4.
 
@@ -50,7 +50,7 @@ A 4MiB page is formed by setting L in a PL2e. The physical address is formed by 
 
 Every PL1e must have L set to indicate a 4KiB leaf. If not a MALFORMED fault is delivered.
 
-######## Read (R), Write (W), Execute (X) Permisions
+###### Read (R), Write (W), Execute (X) Permisions
 
 Each PL3e/PL2e/PL1e contains R/W/X permissions at bits 1/2/3.
 
@@ -63,6 +63,7 @@ For the access to occur, every PL3e/PL2e/PL1e used during translation must have 
 #### Coding
 
 For those who choose to use C, the template handles all input/output.
+
 Populate the contents of linearToPhys().
 
 ```c

@@ -9,6 +9,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HackerRank.SQL", "HackerRan
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HackerRank.ProjectEuler", "HackerRank.ProjectEuler\HackerRank.ProjectEuler.vcxproj", "{AA3B83DB-C225-4039-A0AD-B73AA0FA3C41}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HackerRank.VMWare", "HackerRank.VMWare\HackerRank.VMWare.vcxproj", "{4B4EA643-7660-4EA0-92ED-C02499B630E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,16 @@ Global
 		{AA3B83DB-C225-4039-A0AD-B73AA0FA3C41}.Release|x64.Build.0 = Release|x64
 		{AA3B83DB-C225-4039-A0AD-B73AA0FA3C41}.Release|x86.ActiveCfg = Release|Win32
 		{AA3B83DB-C225-4039-A0AD-B73AA0FA3C41}.Release|x86.Build.0 = Release|Win32
+		{4B4EA643-7660-4EA0-92ED-C02499B630E5}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{4B4EA643-7660-4EA0-92ED-C02499B630E5}.Debug|x64.ActiveCfg = Debug|x64
+		{4B4EA643-7660-4EA0-92ED-C02499B630E5}.Debug|x64.Build.0 = Debug|x64
+		{4B4EA643-7660-4EA0-92ED-C02499B630E5}.Debug|x86.ActiveCfg = Debug|Win32
+		{4B4EA643-7660-4EA0-92ED-C02499B630E5}.Debug|x86.Build.0 = Debug|Win32
+		{4B4EA643-7660-4EA0-92ED-C02499B630E5}.Release|Any CPU.ActiveCfg = Release|Win32
+		{4B4EA643-7660-4EA0-92ED-C02499B630E5}.Release|x64.ActiveCfg = Release|x64
+		{4B4EA643-7660-4EA0-92ED-C02499B630E5}.Release|x64.Build.0 = Release|x64
+		{4B4EA643-7660-4EA0-92ED-C02499B630E5}.Release|x86.ActiveCfg = Release|Win32
+		{4B4EA643-7660-4EA0-92ED-C02499B630E5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

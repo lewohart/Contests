@@ -4,7 +4,10 @@
 #include "pch.h"
 #include <iostream>
 
+#include "HierarchicalPageTableTranslation.h"
+
 using std::cout;
+using std::endl;
 
 int main()
 {

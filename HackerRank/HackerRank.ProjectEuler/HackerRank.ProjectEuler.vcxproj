@@ -156,6 +156,16 @@
   <ItemGroup>
     <ClCompile Include="euler001.cpp" />
     <ClCompile Include="euler002.cpp" />
+    <ClCompile Include="euler003.cpp" />
+    <ClCompile Include="euler004.cpp" />
+    <ClCompile Include="euler005.cpp" />
+    <ClCompile Include="euler006.cpp" />
+    <ClCompile Include="euler007.cpp" />
+    <ClCompile Include="euler008.cpp" />
+    <ClCompile Include="euler009.cpp" />
+    <ClCompile Include="euler010.cpp" />
+    <ClCompile Include="euler011.cpp" />
+    <ClCompile Include="euler012.cpp" />
     <ClCompile Include="_main.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

@@ -1,8 +1,5 @@
 // https://www.codewars.com/kata/reverse-or-rotate/train/
 #include "pch.h"
-#include <igloo/igloo_alt.h>
-
-using namespace igloo;
 
 #include <string>
 #include <vector>
@@ -48,27 +45,13 @@ bool RevRot::sum_of_the_cubes_of_its_digits_is_divisible_by_2(const std::string 
 	return (sum % 2) == 0;
 }
 
-void testequal(std::string ans, std::string sol)
-{
-	Assert::That(ans, Equals(sol));
-}
-
-static void dotest(std::string s, unsigned int sz, std::string expected)
-{
-	testequal(RevRot::revRot(s, sz), expected);
-}
-
 Describe(revRot_Tests)
 {
 	It(Fixed__Tests)
 	{
-		std::string s = "1234";
-		dotest(s, 0, "");
-		s = "";
-		dotest(s, 0, "");
-		s = "733049910872815764";
-		dotest(s, 5, "330479108928157");
-		s = "73304991087281576455176044327690580265896";
-		dotest(s, 8, "1994033775182780067155464327690480265895");
+		Assert::That(RevRot::revRot("1234", 0), Equals(""));
+		Assert::That(RevRot::revRot("", 0), Equals(""));
+		Assert::That(RevRot::revRot("733049910872815764", 5), Equals("330479108928157"));
+		Assert::That(RevRot::revRot("73304991087281576455176044327690580265896", 8), Equals("1994033775182780067155464327690480265895"));
 	}
 };

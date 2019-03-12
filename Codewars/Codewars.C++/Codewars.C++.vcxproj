@@ -156,12 +156,18 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pch.cpp">
+    <ClCompile Include="brick-pyramid.cpp" />
+    <ClCompile Include="decimal-to-factorial-and-back.cpp" />
+    <ClCompile Include="decode-the-morse-code.cpp" />
+    <ClCompile Include="maximum-length-difference.cpp" />
+    <ClCompile Include="_pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="playing_with_digits.cpp" />
+    <ClCompile Include="primes-in-number.cpp" />
     <ClCompile Include="reverse-or-rotate.cpp" />
     <ClCompile Include="_main.cpp" />
   </ItemGroup>

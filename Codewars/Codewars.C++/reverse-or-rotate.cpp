@@ -45,9 +45,9 @@ bool RevRot::sum_of_the_cubes_of_its_digits_is_divisible_by_2(const std::string 
 	return (sum % 2) == 0;
 }
 
-Describe(revRot_Tests)
+Describe(Reverse_or_Rotate_Tests)
 {
-	It(Fixed__Tests)
+	It(All_Tests)
 	{
 		Assert::That(RevRot::revRot("1234", 0), Equals(""));
 		Assert::That(RevRot::revRot("", 0), Equals(""));

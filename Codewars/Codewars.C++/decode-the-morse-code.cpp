@@ -37,9 +37,9 @@ std::string decodeMorse(std::string morseCode) {
 	return decoded;
 }
 
-Describe(Example_from_description)
+Describe(Decode_the_Code_Morse_Teste)
 {
-	It(should_do_something)
+	It(All_Tests)
 	{
 		Assert::That(decodeMorse(".... . -.--   .--- ..- -.. ."), Equals("HEY JUDE"));
 	}

@@ -36,36 +36,16 @@ public:
 	}
 };
 
-
-void testequal1(std::string ans, std::string sol) {
-	Assert::That(ans, Equals(sol));
-}
-void testequal2(long long ans, long long sol) {
-	Assert::That(ans, Equals(sol));
-}
-static void dotest1(long long nb, std::string expected)
+Describe(Dec2Fact_and_Back_Tests)
 {
-	testequal1(Dec2Fact::dec2FactString(nb), expected);
-}
-static void dotest2(const std::string &str, long long expected)
-{
-	testequal2(Dec2Fact::factString2Dec(str), expected);
-}
-static void dotest3(long long nb, long long expected)
-{
-	testequal2(Dec2Fact::factString2Dec(Dec2Fact::dec2FactString(nb)), expected);
-}
-
-Describe(Dec2Fact_and_back_Tests)
-{
-	It(Fixed__Tests)
+	It(All_Tests)
 	{
-		dotest1(2982, "4041000");
-		dotest1(463, "341010");
+		Assert::That(Dec2Fact::dec2FactString(2982), Equals("4041000"));
+		Assert::That(Dec2Fact::dec2FactString(463), Equals("341010"));
 
-		dotest2("341010", 463);
-		dotest2("65341010", 34303);
+		Assert::That(Dec2Fact::factString2Dec("341010"), Equals(463));
+		Assert::That(Dec2Fact::factString2Dec("65341010"), Equals(34303));
 
-		dotest3(999999999, 999999999);
+		Assert::That(Dec2Fact::factString2Dec(Dec2Fact::dec2FactString(999999999)), Equals(999999999));
 	}
 };

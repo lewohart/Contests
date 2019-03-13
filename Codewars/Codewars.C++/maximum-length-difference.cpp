@@ -20,9 +20,9 @@ public:
 	}
 };
 
-Describe(mxdiflg_Tests)
+Describe(Maximum_Length_Difference_Tests)
 {
-	It(Fixed__Tests)
+	It(All_Tests)
 	{
 		{
 			std::vector<std::string> s1 = { "hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz" };

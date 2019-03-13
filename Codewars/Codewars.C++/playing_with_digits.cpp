@@ -20,9 +20,9 @@ int  DigPow::digPow(int n, int p) {
 	return (succ_pow % n == 0) ? (succ_pow / n) : -1;
 }
 
-Describe(digPow_Tests)
+Describe(Playing_With_Digits_Tests)
 {
-	It(Fixed__Tests)
+	It(All_Tests)
 	{
 		Assert::That(DigPow::digPow(89, 1), Equals(1));
 		Assert::That(DigPow::digPow(92, 1), Equals(-1));

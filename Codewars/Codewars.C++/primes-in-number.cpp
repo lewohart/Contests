@@ -57,9 +57,9 @@ public:
 	}
 };
 
-Describe(factors_Tests)
+Describe(Primes_in_Numbers_Tests)
 {
-	It(Fixed_Tests)
+	It(All_Tests)
 	{
 		Assert::That(PrimeDecomp::factors(7775460), Equals("(2**2)(3**3)(5)(7)(11**2)(17)"));
 		Assert::That(PrimeDecomp::factors(7919), Equals("(7919)"));

@@ -12,9 +12,9 @@ public:
 	}
 };
 
-Describe(Pyramid_Tests)
+Describe(Brick_Pyramid_Tests)
 {
-	It(all_tests)
+	It(All_Tests)
 	{
 		Assert::That(Pyramid::weight(0, 0), Equals(0));
 		Assert::That(Pyramid::weight(1, 0), Equals(0.5));

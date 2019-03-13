@@ -1,0 +1,3 @@
+[submodule "Codewars/Codewars.C++/igloo"]
+	path = Codewars/Codewars.C++/igloo
+	url = https://github.com/joakimkarlsson/igloo.git

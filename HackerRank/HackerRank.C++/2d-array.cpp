@@ -44,3 +44,10 @@ int _2d_array() {
 	cout << max;
 	return 0;
 }
+
+//#include "catch.hpp"
+//
+//TEST_CASE("Factorials are computed", "[factorial]")
+//{
+//	REQUIRE(_2d_array() == 0);
+//}

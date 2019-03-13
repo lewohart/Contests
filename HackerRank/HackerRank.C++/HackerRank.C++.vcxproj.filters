@@ -18,17 +18,11 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="contests.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="node.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -174,6 +168,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="swap_nodes_algo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="_pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

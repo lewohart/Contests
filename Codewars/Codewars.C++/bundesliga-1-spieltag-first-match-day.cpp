@@ -77,15 +77,23 @@ class Bundesliga : public std::vector<Team>
 {
 private:
 	Team& get_team(std::string name) {
-		auto found = std::find_if(begin(), end(), [&](const  Team &a) { return a.equals(name); });
+		auto found = std::find_if(begin(), end(), [&](const  Team &a) {
+			return a.equals(name);
+		});
+
 		return *(found != end() ? found : insert(end(), Team(name)));
 	}
 public:
 	void add_game(std::string s) {
-		auto try_stoi = [&](auto v) {return v.compare("-") == 0 ? -1 : std::stoi(v); };
+		auto try_stoi = [&](auto v) {
+			return v.compare("-") == 0 ? -1 : std::stoi(v);
+		};
+
 		size_t t[] = { s.find(':'), s.find(' '), s.find('-', s.find(' ') + 1) };
+
 		auto x = try_stoi(s.substr(0, t[0])), y = try_stoi(s.substr(t[0] + 1, t[1] - 1 - t[0]));
 		auto team1 = (s.substr(t[1] + 1, t[2] - 2 - t[1])), team2 = (s.substr(t[2] + 2));
+
 		get_team(team1).match(x, y);
 		get_team(team2).match(y, x);
 	}
@@ -156,10 +164,7 @@ Describe(Bundesliga_1_Spieltag_First_Match_Day_Tests)
 			" 2. VfL Wolfsburg                 0  0  0  0  0:0  0\n"
 			"18. Werder Bremen                 1  0  0  1  0:6  0";
 
-		Bundesliga bundesLiga;
-
-		std::string actual = bundesLiga.table(results);
-
+		auto actual = Bundesliga().table(results);
 		Assert::That("\n" + actual, Is().EqualTo("\n" + expected));
 	}
 
@@ -198,10 +203,7 @@ Describe(Bundesliga_1_Spieltag_First_Match_Day_Tests)
 			"16. SV Darmstadt                  1  0  0  1  0:2  0\n"
 			"18. Werder Bremen                 1  0  0  1  0:6  0";
 
-		Bundesliga bundesLiga;
-
-		std::string actual = bundesLiga.table(results);
-
+		auto actual = Bundesliga().table(results);
 		Assert::That("\n" + actual, Is().EqualTo("\n" + expected));
 	}
 
@@ -240,10 +242,7 @@ Describe(Bundesliga_1_Spieltag_First_Match_Day_Tests)
 			"16. SV Darmstadt                  1  0  0  1  0:2  0\n"
 			"18. Werder Bremen                 1  0  0  1  0:6  0";
 
-		Bundesliga bundesLiga;
-
-		std::string actual = bundesLiga.table(results);
-
+		auto actual = Bundesliga().table(results);
 		Assert::That("\n" + actual, Is().EqualTo("\n" + expected));
 	}
 };

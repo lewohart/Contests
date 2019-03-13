@@ -1,3 +1,6 @@
 [submodule "Codewars/Codewars.C++/igloo"]
 	path = Codewars/Codewars.C++/igloo
 	url = https://github.com/joakimkarlsson/igloo.git
+[submodule "HackerRank/HackerRank.C++/Catch2"]
+	path = HackerRank/HackerRank.C++/Catch2
+	url = https://github.com/catchorg/Catch2.git

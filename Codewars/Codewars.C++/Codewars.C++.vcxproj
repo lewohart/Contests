@@ -158,17 +158,26 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="braking-well.cpp" />
     <ClCompile Include="brick-pyramid.cpp" />
+    <ClCompile Include="bundesliga-1-spieltag-first-match-day.cpp" />
+    <ClCompile Include="consecutive-strings.cpp" />
     <ClCompile Include="decimal-to-factorial-and-back.cpp" />
     <ClCompile Include="decode-the-morse-code.cpp" />
+    <ClCompile Include="directions-reduction.cpp" />
+    <ClCompile Include="how-many-times-does-it-contain.cpp" />
     <ClCompile Include="maximum-length-difference.cpp" />
+    <ClCompile Include="moves-in-squared-strings-ii.cpp" />
+    <ClCompile Include="multiples-of-3-or-5.cpp" />
+    <ClCompile Include="playing-with-digits.cpp" />
+    <ClCompile Include="the-supermarket-queue.cpp" />
+    <ClCompile Include="thinking-and-testing-incomplete-string.cpp" />
     <ClCompile Include="_pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="playing_with_digits.cpp" />
     <ClCompile Include="primes-in-number.cpp" />
     <ClCompile Include="reverse-or-rotate.cpp" />
     <ClCompile Include="_main.cpp" />

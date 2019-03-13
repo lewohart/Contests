@@ -4,8 +4,7 @@
 #include <sstream>
 #include <string>
 
-
-std::map<std::string, const char *> MORSE_CODE = 
+std::map<std::string, const char *> MORSE_CODE =
 {
 	 { " "      , " " }, { "\n"     , "\n" }, { ".-"     , "A" }, { "-..."   , "B"  }, { "-.-."   , "C"  },
 	 { "-.."    , "D" }, { "."      , "E"  }, { "..-."   , "F" }, { "--."    , "G"  }, { "...."   , "H"  },

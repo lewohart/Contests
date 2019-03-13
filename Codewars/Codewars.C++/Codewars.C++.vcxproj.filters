@@ -26,9 +26,6 @@
     <ClCompile Include="_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="playing_with_digits.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="primes-in-number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -45,6 +42,36 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="decimal-to-factorial-and-back.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="how-many-times-does-it-contain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="the-supermarket-queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="multiples-of-3-or-5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thinking-and-testing-incomplete-string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bundesliga-1-spieltag-first-match-day.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="playing-with-digits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moves-in-squared-strings-ii.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="braking-well.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="directions-reduction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="consecutive-strings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
